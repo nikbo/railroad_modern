@@ -1,4 +1,4 @@
-class CreateLinesStations < ActiveRecord::Migration
+class CreateLinesStaions < ActiveRecord::Migration
   def up
     create_table :lines_stations, :id => false do |t|
       t.column :station_id, :integer
